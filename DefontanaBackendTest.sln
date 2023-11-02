@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefontanaBackendTest", "Def
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefontanaBackendTest.DL", "DefontanaBackendTest.DL\DefontanaBackendTest.DL.csproj", "{B660977F-653E-4F51-AF52-7ACDACB035F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefontanaBackendTest.DAL", "DefontanaBackendTest.DAL\DefontanaBackendTest.DAL.csproj", "{50D64C55-AA70-41CF-8615-2F0F20B3637B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B660977F-653E-4F51-AF52-7ACDACB035F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B660977F-653E-4F51-AF52-7ACDACB035F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B660977F-653E-4F51-AF52-7ACDACB035F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D64C55-AA70-41CF-8615-2F0F20B3637B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D64C55-AA70-41CF-8615-2F0F20B3637B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D64C55-AA70-41CF-8615-2F0F20B3637B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D64C55-AA70-41CF-8615-2F0F20B3637B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
