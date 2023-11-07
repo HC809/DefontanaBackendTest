@@ -7,7 +7,7 @@ using System.Globalization;
 
 namespace DefontanaBackendTest.BLL.Services
 {
-    public class VentasService : IVentasService
+    public class ConsultasService : IConsultasService
     {
         private readonly IGenericRepository<Venta> _ventasRepository;
         private readonly IGenericRepository<Local> _localRepository;
@@ -16,7 +16,7 @@ namespace DefontanaBackendTest.BLL.Services
         private readonly IGenericRepository<Marca> _marcaRepository;
         private readonly IMapper _mapper;
 
-        public VentasService(
+        public ConsultasService(
             IGenericRepository<Venta> ventasRepository,
             IGenericRepository<Local> localRepository,
             IGenericRepository<VentaDetalle> ventaDetalleRepository,

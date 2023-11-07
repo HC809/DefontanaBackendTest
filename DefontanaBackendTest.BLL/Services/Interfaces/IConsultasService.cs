@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DefontanaBackendTest.BLL.Services.Interfaces
 {
-    public interface IVentasService
+    public interface IConsultasService
     {
         Task<ConsultaDTO> ConsultaVentas();
     }
