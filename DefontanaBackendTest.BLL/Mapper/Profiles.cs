@@ -9,6 +9,12 @@ namespace DefontanaBackendTest.BLL.Mapper
         public Profiles()
         {
             CreateMap<Venta, VentaDTO>();
+            CreateMap<Local, LocalDTO>();
+            CreateMap<Producto, ProductoDTO>();
+            CreateMap<Marca, MarcaDTO>();
+            CreateMap<VentaDetalle, VentaDetalleDTO>()
+                .ForMember(dest => dest.ProductoNombre, opt => opt.MapFrom(src => src.IdProductoNavigation.Nombre));
+
         }
     }
 }

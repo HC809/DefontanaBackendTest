@@ -9,6 +9,6 @@ namespace DefontanaBackendTest.BLL.Services.Interfaces
 {
     public interface IVentasService
     {
-        Task<ConsultaVentasDTO> ConsultaVentas();
+        Task<ConsultaDTO> ConsultaVentas();
     }
 }
